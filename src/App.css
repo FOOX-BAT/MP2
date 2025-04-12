@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.App {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+/* Light Mode */
+body.light {
+  background-color: #f4f4f4;
+  color: #111111;
+}
